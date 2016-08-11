@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixUtilities", "FixUtilities.csproj", "{C27B258C-1694-4EAF-8A4A-F080CE23EF9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C401CA82-8C07-4DA5-96CC-972705C1C717} = {C401CA82-8C07-4DA5-96CC-972705C1C717}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUtilities", "..\WcIntake\FileUtilities\FileUtilities.csproj", "{C401CA82-8C07-4DA5-96CC-972705C1C717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27B258C-1694-4EAF-8A4A-F080CE23EF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27B258C-1694-4EAF-8A4A-F080CE23EF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27B258C-1694-4EAF-8A4A-F080CE23EF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27B258C-1694-4EAF-8A4A-F080CE23EF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C401CA82-8C07-4DA5-96CC-972705C1C717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C401CA82-8C07-4DA5-96CC-972705C1C717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C401CA82-8C07-4DA5-96CC-972705C1C717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C401CA82-8C07-4DA5-96CC-972705C1C717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
